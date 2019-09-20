@@ -1,0 +1,3 @@
+over_voltage=3
+arm_freq=1900
+disable_splash=1
