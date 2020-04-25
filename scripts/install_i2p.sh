@@ -11,3 +11,5 @@ gpg -n --import --import-options import-show i2p-debian-repo.key.asc
 sudo apt-key add i2p-debian-repo.key.asc
 sudo apt-get update
 sudo apt-get install i2p i2p-keyring
+# setup i2p to run as a service on boot
+sudo dpkg-reconfigure i2p
