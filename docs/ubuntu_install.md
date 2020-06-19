@@ -13,3 +13,7 @@ If using wifi you will need to make the following changes:
 4) *optional* run `netplan generate`
 5) run `netplan apply`
 6) reboot
+
+# overclocking
+
+to overclock you need to edit the file at `/boot/firmware/usercfg.txt`
